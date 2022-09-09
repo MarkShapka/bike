@@ -57,14 +57,14 @@
   transition: 0.3s;
 }
 .icon--menu {
-  background-image: url(../images/menu.svg);
+  background-image: url(./images/menu.svg);
 }
 .icon--menu:hover {
-  background-image: url(../images/menu_hover.svg);
+  background-image: url(./images/menu_hover.svg);
 }
 .icon--phone {
   text-decoration: none;
-  background-image: url(../images/phone.svg);
+  background-image: url(./images/phone.svg);
 }
 @media (min-width: 1020px) {
   .icon--phone::before {
@@ -90,7 +90,7 @@
   }
 }
 .icon--cross {
-  background-image: url(../images/cross.svg);
+  background-image: url(./images/cross.svg);
 }
 
 .top-menu {
@@ -1374,7 +1374,7 @@
 .header {
   background-position: center;
   background-size: cover;
-  background-image: url(../images/photos/image_mobile.png);
+  background-image: url(./images/photos/image_mobile.png);
 }
 .header__content {
   box-sizing: border-box;
@@ -1396,12 +1396,12 @@
 }
 @media (min-width: 600px) {
   .header {
-    background-image: url(../images/photos/image_tablet.png);
+    background-image: url(./images/photos/image_tablet.png);
   }
 }
 @media (min-width: 1020px) {
   .header {
-    background-image: url(../images/photos/image_desktop.png);
+    background-image: url(./images/photos/image_desktop.png);
   }
 }
 .header__title {
@@ -1617,18 +1617,18 @@
   height: 200px;
   background-size: cover;
   background-position: center;
-  background-image: url(../images/photos/footer_mobile.png);
+  background-image: url(./images/photos/footer_mobile.png);
 }
 @media (min-width: 600px) {
   .footer {
     height: 480px;
-    background-image: url(../images/photos/footer_tablet.png);
+    background-image: url(./images/photos/footer_tablet.png);
   }
 }
 @media (min-width: 1020px) {
   .footer {
     height: 555px;
-    background-image: url(../images/photos/footer_desktop.png);
+    background-image: url(./images/photos/footer_desktop.png);
   }
 }
 
